@@ -1,12 +1,13 @@
+import java.util.Scanner;
+
 public class BasicArrays {
 
     public static void main(String[] args) {
 
-        String[] names = new String[15];
+        String[] names = {"Florian", "Daniel", "Elvedin"};
 
         names[0] = "Florian";
         names[2] = "Elvedin";
-        names[13] = "Zeshan";
 
         System.out.println(names[1]);
 
